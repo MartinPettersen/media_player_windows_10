@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.bg-color{
+    background-color: #a64b4b;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.title{
+    color: #FFFFFF;
+}
+
+.play-button{
+    margin: 0 auto;
+    top: 25%;
+    position: relative;  
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.75em 0 0.75em 1.5em;
+    border-color: transparent transparent transparent #FFFFFF;
+    opacity: .90;
+  }
+
+  .play-button:hover{
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .pause-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    opacity: .90;
+  }
+  .pause-button:hover{
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  .pause-bar{
+    margin: 0 auto;
+    position: relative;  
+    width: 10;
+    height: 10;
+    border-style: solid;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+
+    border-width: 0.75em 0.15em 0.75em 0.15em;
+    border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+  }
+
+  .forward{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    opacity: .90;
+  }
+
+  .forward:hover{
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .triangle{
+    margin: 0 auto;
+    top: 25%;
+    position: relative;  
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.45em 0 0.45em 0.75em;
+    border-color: transparent transparent transparent #FFFFFF;
+    opacity: .90;
+  }
+
+  .back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    opacity: .90;
+    transform: scale(-1, 1)
+  }
+
+  .back:hover{
+    opacity: 1;
+    transform: scale(-1.1, 1.1);
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .show{
+    display: block;
+  }
+
+  .mar{
+    margin-left: 1em;
+    margin-right: 1em;
+
+  }
+
+  .selector{
+    background-color: #FFFFFF;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 20px;
+
+  }
+
+  .rangeSlider{
+    -webkit-appearance: none;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 1em;
+    opacity: .90;
+  }
+
+  .rangeSlider:hover{
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .rangeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #404040;
+    cursor: pointer;
+    border-radius: 25px;
+    
+  }
